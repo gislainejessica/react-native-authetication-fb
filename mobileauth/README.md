@@ -45,13 +45,16 @@ Na versão do **react-native > 0.6** as configurações de link, são feitas pel
 - Como pra rodar essa aplicação já tenho instalado o **android sdk** e a versão do react-native usada suporta o **auto-link** pular etapa 1 e 2, para a criação do aplicativo.
 
 #### Etapa 3 é que começa as configurações (Conte-nos sobre seu projeto para Android):
-    - Ir lá no arquivo `android/app/src/main/AndroidManifest.xml` e bucar o nome do pacote (**com.mobileauth**).
+    - Ir lá no arquivo `android/app/src/main/AndroidManifest.xml` 
+      e bucar o nome do pacote (**com.mobileauth**).
         
     - Preenchido os campos certinho, clicar em *salvar*.
-
           Aqui ele vai da uma mensagem tipo essa:
-          * Ocorreu um problema ao verificar o nome do pacote: com.mobileauth no Google Play. Verifique o nome do pacote e tente novamente.
-          * Se o seu aplicativo ainda não estiver listado publicamente no Google Play, você pode ignorar essa mensagem
+          * Ocorreu um problema ao verificar o nome do pacote: 
+            com.mobileauth no Google Play. 
+            Verifique o nome do pacote e tente novamente.
+          * Se o seu aplicativo ainda não estiver listado publicamente no Google Play, 
+          você pode ignorar essa mensagem
 
     Só clicar em **usar esse nome de pacote** sem problemas
     continue para a proxima etapa...
