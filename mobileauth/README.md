@@ -40,6 +40,7 @@ Na versão do **react-native > 0.6** as configurações de link, são feitas pel
 ## Criando um app na conta no Facebook for developers
 - Primeiramente: logar com uma conta do facebook no site:
 [Facebook for Developers](https://developers.facebook.com) 
+[Processo do Login-Setup](https://developers.facebook.com/docs/facebook-login/android)
 ----
 - **Criar Aplicativo**, seguindo os passos que a pagina vai guiar
 - Como pra rodar essa aplicação já tenho instalado o **android sdk** e a versão do react-native usada suporta o **auto-link** pular etapa 1 e 2, para a criação do aplicativo.
@@ -88,3 +89,5 @@ Se tu costomizar, seu botão vai ter que lidar com o seguinte fluxo:
 => Pedir as permissões
 => Pegar o access Token
 => Pegar os dados
+
+**Api de acesso aos dados do Facebook está como Graphql** 
